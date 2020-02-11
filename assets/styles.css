@@ -53,7 +53,7 @@ p {
 a {
     color: #00020d;
     text-decoration: none;
-    font-size: .7 rem;
+    font-size: .7rem;
     font-family:'Cormorant Garamond', serif;
 }
 
@@ -119,6 +119,14 @@ a {
     height:40px;
     width: 40px;
 }
+.arrow svg{
+    display:block;
+    position: absolute;
+    bottom: 0;
+    width: 1rem;
+    height: 1rem;
+    justify-content: center;
+}
 
 
 .navigation,
@@ -160,6 +168,8 @@ a {
     color: #0f20fe;
     margin: 10% 0 0 0;
 }
+
+
 
 .wrapper {
     margin: 0 auto;
