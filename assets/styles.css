@@ -65,23 +65,33 @@ a {
 }
 
 .billboard {
-    background: #fff url(img/header-bg.jpg) 50% no-repeat;
-    background-size: cover;
     color: #00020d;
     height: 100vh;
-    position: relative;
 }
 
 .billboard__content {
     text-align: left;
+    position: relative;
+    z-index: 1;
 }
 
 .billboard__wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    position: relative;
     height: 100%;
+}
+.billboard__wrapper::before{
+    content:'';
+    display:block;
+    background:#F7F7F8;
+    position:absolute;
+    z-index:0;
+    bottom:0;
+    left:20px;
+    width: calc(100% - 40px);
+    height:50%;
 }
 
 .billboard__schedule {
@@ -99,6 +109,7 @@ a {
     position: absolute;
     right: 0;
 }
+
 
 .logo{
     display:block;
@@ -119,7 +130,7 @@ a {
 .nav-link{
     display:block;
     padding: 10px 20px;
-    font-size: .75rem;
+    font-size: 1rem;
 }
 
 
@@ -148,15 +159,6 @@ a {
     font-family:'Cormorant Garamond', serif;
     color: #0f20fe;
     margin: 10% 0 0 0;
-}
-
-.underline::after {
-    background: yellow;
-    content: '';
-    display: block;
-    height: 4px;
-    margin: 20px auto 0;
-    width: 80px;
 }
 
 .wrapper {
@@ -234,15 +236,6 @@ a {
     text-align: center;
 }
 
-.titular::after {
-    background: yellow;
-    border-radius: 2px;
-    content: '';
-    display: block;
-    height: 4px;
-    margin: 20px auto 0;
-    width: 80px;
-}
 
 .text-center {
     text-align: left;
