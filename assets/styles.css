@@ -58,10 +58,27 @@ a {
     z-index: 1;
 }
 
+
+.column__image {
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.about-image{
+    background-image: url(../assets/img/ikdashaundi.jpg);
+}
+
 .billboard {
     color: #00020d;
     height: 100vh;
 }
+
 
 .billboard__content {
     text-align: left;
@@ -114,7 +131,6 @@ a {
     width: 40px;
 }
 .arrow svg{
-    display:block;
     position: absolute;
     bottom: 0;
     width: 1rem;
@@ -208,8 +224,12 @@ a {
 }
 
 .footer{
-    display:block;
-    background:#F7F7F8;
+    background: #F7F7F8;
+    color: #00020d;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+    height:20%;
 }
 
 
