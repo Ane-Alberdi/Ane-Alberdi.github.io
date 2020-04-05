@@ -44,14 +44,20 @@ h3{
     font-size: 1.5rem;
     font-weight: 600;
     color:#00020d; /* color de fallback */
-
 }
+
+.h3_azul{
+    margin-top: 3rem;
+    color:#0F20FE;
+}
+
 
 p {
     font-size: 1rem;
     font-weight:300;
     line-height: 1.5;
     margin-top: 3%;
+    margin-bottom:4%;
 }
 
 .italic{
@@ -98,7 +104,37 @@ img {
 .img_centrada{
     display:block;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 0 20px;
+    position: relative;
+}
 
+.calltoaction{
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+
+}
+.raya{
+    width:100%;
+    border:none;
+    height:1px;
+    background: #00020d;
+}
+
+.boton{
+    font-family:'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#00020d;
+    border:1.5px solid #00020d;
+    padding:4px 40px;
+    margin-bottom: 3rem;
 }
 
 .descripcion{
@@ -264,10 +300,18 @@ img {
 .footer{
     background: #F7F7F8;
     color: #00020d;
-    padding: 1rem 0;
+    padding: 3.5rem 0;
     text-align: center;
     width: 100%;
     height:20%;
+    margin-top: 2rem;
+}
+.copyright{
+    text-align:left;
+}
+.footer__list {
+    display: flex;
+    justify-content:space-between;
 }
 
 
@@ -309,6 +353,10 @@ img {
     margin-right: 2rem;
     margin-top:2rem;
 }
+
+
+
+  
 
 
 
