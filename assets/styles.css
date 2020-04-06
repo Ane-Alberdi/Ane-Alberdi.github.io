@@ -112,6 +112,12 @@ img {
     position: relative;
 }
 
+.img_column{
+    display:block;
+    max-width:100%;
+    padding: 20px 0;
+}
+
 .calltoaction{
     margin: 0 auto;
     max-width: 75%;
@@ -135,6 +141,14 @@ img {
     border:1.5px solid #00020d;
     padding:4px 40px;
     margin-bottom: 3rem;
+}
+
+.boton:hover{
+    font-weight: 500;
+    color:#F7F7F8;
+    padding:4px 40px;
+    margin-bottom: 3rem;
+    background-color: #00020d;
 }
 
 .descripcion{
@@ -253,7 +267,11 @@ img {
 .section {
     padding: 3.5rem 0;
     position:relative;
+}
 
+.subsection{
+    padding: 0.5rem 0 3.5rem 0;
+    position:relative;
 }
 
 
@@ -353,11 +371,6 @@ img {
     margin-right: 2rem;
     margin-top:2rem;
 }
-
-
-
-  
-
 
 
 
