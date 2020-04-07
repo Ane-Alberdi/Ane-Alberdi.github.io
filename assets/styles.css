@@ -293,8 +293,12 @@ img {
     -webkit-text-fill-color: white; /* color de fondo */
     -webkit-text-stroke-width: 1px; /* ancho del borde */
     -webkit-text-stroke-color: #00020d; /* color de borde */
-    margin: 10% 0 0 0;
+    margin: 15% 0 0 0;
   }
+.outline_contacto {
+    color: #0F20FE; /* color de fallback */
+    margin: 20% 0 0 0;
+}
 
 .reverse .column__image::after {
     left: 0;
