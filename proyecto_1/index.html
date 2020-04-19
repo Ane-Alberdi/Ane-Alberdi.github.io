@@ -6,6 +6,8 @@
         <title>ikDAS</title>
         <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400|Open+Sans:300,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../assets/styles.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        
     </head>
     <body class="dark">
 
@@ -17,25 +19,31 @@
                             <svg data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.62 39.44"><text transform="translate(.25 29.25)" font-size="36" fill="#040509" font-family="CormorantGaramond-SemiBold,Cormorant Garamond" font-weight="600">AA</text></svg>
                         </a>
                     </div>
+                    <input type="checkbox" id="chk">
+                    <label for="chk" class="show-menu-btn">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </label>
                     <ul class="navigation__list">
-                        <li><a class="nav-link" href="#hey">Hey</a></li>
+                        <li><a class="nav-link" href="index.html">Hey</a></li>
                         <li><a class="nav-link" href="#proyectos">Proyectos</a></li>
-                        <li><a class="nav-link" href="#sobremi">Sobre mí</a></li>
-                        <li><a class="nav-link" href="#contacto">Contacto</a></li>
+                        <li><a class="nav-link" href="sobre_mi/index.html">Sobre mí</a></li>
+                        <li><a class="nav-link" href="contacto/index.html">Contacto</a></li>
+                        <label for="chk" class="hide-menu-btn">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </label>
                     </ul>
-                   
                 </nav>
             </div>
         </header>
         <main>
-            <section class="billboard column__imageikdas">
+            <section class="billboard_proyecto column__imageikdas">
                 <img class="proyecto_portada" src="../assets/img/ikdasportada.png">
             </section>
 
             <section id="ikDAS" class="section descripcion">
                 <div class="wrapper-small row">
                     <div class="billboard__content column">
-                        <h1> ikDAS </h1>
+                        <h1 class="grande"> ikDAS </h1>
                         <p class="bold"> Rediseño de plataforma industrial</p>
                         <p class="italic">2018-19, 8 meses, individual</p>
                         <p>En esta nueva etapa de la transformación digital, las empresas industriales se han visto en la necesidad de crear nuevas interfaces humano-máquina (HMI) adaptadas a las necesidades de los usuarios. En este contexto, se ha llevado a cabo el proceso de diseño de la aplicación ikDAS de la empresa IK4-Ideko hasta crear un prototipo funcional, desde la perspectiva del diseño centrado en el usuario.</p>       
@@ -43,7 +51,7 @@
                 </div>
             </section>
 
-            <section id="section1" class="section">
+            <section id="section1" class="upsection">
                 <div class="wrapper-small row">
                     <div class="column"></div>
                     <div class="column">
@@ -53,10 +61,10 @@
                 </div>
                 <div class="wrapper-small row">
                     <div class="column">
-                        <img src="../assets/img/ikdasmaterial.png">
+                        <img class="proyeto_imgcolumn" src="../assets/img/ikdasmaterial.png">
                     </div>
                     <div class="column">
-                        <img src="../assets/img/ikdasmenu.PNG">
+                        <img class="proyeto_imgcolumn" src="../assets/img/ikdasmenu.PNG">
                     </div>
                 </div>
             </section>
@@ -67,10 +75,10 @@
                     <div class="column">
                         <h3>Evaluación experta</h3>
                         <p>Se ha llevado a cabo la evaluación de la interacción de la actual plataforma, desde la perspectiva del diseñador, evaluando los criterios definidos por heurísticos de usabilidad. Entre los aspectos generales, setup y diagnóstico que se han analizado en el actual software ikDAS, 89 en total, se han identificado 25 aspectos a mejorar. </p>
-                        <img src="../assets/img/ikdasresultados.png">
+                        <img class="proyeto_imgcolumn" src="../assets/img/ikdasresultados.png">
                         <h3>Evaluación del usuario</h3>
                         <p>Se han ejecutado testeos con usuarios en un espacio acondicionado para llevar a la práctica el diseño centrado en el usuario, un laboratorio con dos espacios independientes con estructura de cámara Gesell. Cada usuario ha debido ejecutar una serie de tareas, definidas por parte del experto del sistema a evaluar. Durante la ejecución de tareas se han observado las acciones de los usuarios con dispositivos eye-tracking para identificar factores críticos. Han sido 16 participantes en total, entre las que se encuentran 10 estudiantes de Ingeniería Mecánica y 6 operarios de Ideko. </p>
-                        <img src="../assets/img/ikdasfoto.png">
+                        <img class="proyeto_imgcolumn" src="../assets/img/ikdasfoto.png">
                     </div>
                 </div>
             </section>
@@ -88,7 +96,7 @@
             </section>
         
 
-            <section id="section4" class="section">
+            <section id="section4" class="upsection">
                 <div class="wrapper-small row">
                     <div class="column"></div>
                     <div class="column">
@@ -116,16 +124,16 @@
             <section class="subsection">
                 <img class="img_centrada" src="../assets/img/ikdas1.jpg"> 
             </section>
-            <section class="section">
+            <section class="subsection">
                 <img class="img_centrada" src="../assets/img/ikdas2.jpg"> 
             </section>
-            <section class="section">
+            <section class="subsection">
                 <img class="img_centrada" src="../assets/img/ikdas3.jpg"> 
             </section>
-            <section class="section">
+            <section class="subsection">
                 <img class="img_centrada" src="../assets/img/ikdas4.jpg"> 
             </section>
-            <section class="section">
+            <section class="subsection">
                 <img class="img_centrada" src="../assets/img/ikdas5.jpg"> 
             </section>
             
@@ -134,18 +142,12 @@
                     <hr class="raya">
                     <h3 class="h3_azul">¿Hablamos?</h3>
                     <p>Si te gusta lo que ves, no dudes en ponerte en contacto conmigo.<br>Me encantaría conocerte. </p>
-                    <a class="boton" href="../contacto/index.html">Contacto</a>
+                    <div class="margenboton">
+                        <a class="boton" href="../contacto/index.html">Contacto</a>
+                    </div>
                 </div>
             </section>
 
-
-
-                
-
-
-
-
-        
         </main>
 
 
@@ -166,5 +168,9 @@
                 </ul>
             </div>
         </footer>
+
+    
+
+       
     </body>
 </html>
