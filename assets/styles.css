@@ -95,6 +95,7 @@ p {
 }
 .img_presenta:hover{
     opacity:0.3;
+    transition:all .3s ease-in-out;
 }
 
 a {
@@ -233,6 +234,7 @@ img {
     padding:4px 50px;
     margin-bottom: 3rem;
     background-color: #00020d;
+    transition:all .3s ease-in-out;
 }
 
 .descripcion{
@@ -251,9 +253,6 @@ img {
     color: #00020d;
     min-height: 76vh;
 }
-
-
-    
 
 
 .billboard__content {
@@ -294,9 +293,7 @@ img {
     transform-origin: 0 50%;
 }
 
-
-
-.arrow svg{
+.arrow{
     width: 1rem;
     height: 1rem;
     margin: 2% auto 2% auto;
@@ -518,7 +515,7 @@ img {
         color: #0f20fe;
         margin: 32% 0 0 0;
     }
-    .arrow svg{
+    .arrow{
         width: 0.8rem;
         height: 0.8rem;
     }
