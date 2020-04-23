@@ -18,6 +18,8 @@ svg {
     display: block;
 }
 
+
+
 ul, ol {
     list-style-type: none;
     margin: 0;
@@ -73,6 +75,11 @@ p {
     -webkit-text-stroke-color: #00020d; /* color de borde */
     margin: 15% 0 0 0;
 }
+.activo{
+    color: #0F20FE;
+}
+
+
 
 .subtitle_section{
     text-align: left;
@@ -118,7 +125,42 @@ img {
     z-index: 2;
     background:rgba(255, 255, 255, 0.9);
     top: 0;
+    transition: all 0.5s;
 }
+.headerikdas {
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background:#717ADB;
+    top: 0;
+    transition: all 0.5s;
+}
+.headercaixa {
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background:#CCE5EF;
+    top: 0;
+    transition: all 0.5s;
+}
+.header.active,
+.headerikdas.active,
+.headercaixa.active,
+.headerminva.active,
+.headerspace.active,
+.headerune.active,
+.headerboschtok.active{
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background:rgba(255, 255, 255, 0.9);
+    top: 0;
+    transition: all 0.5s;
+}
+
 
 .fondo{
     padding: 0 20px;
@@ -148,6 +190,11 @@ img {
 /* PROYECTO */
 .column__imageikdas {
     background: #717ADB;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+.column__imagecaixa {
+    background: #CCE5EF;
     min-height: 100vh;
     max-height: 100vh;
 }
@@ -610,7 +657,7 @@ img {
 
 
 .project {
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
 }
 
 .project img {
@@ -669,6 +716,8 @@ img {
     width: 25px;
     height: 25px;
 }
+
+
 .footer__copyright {
     text-align: center;
     margin-top: 0.6rem;

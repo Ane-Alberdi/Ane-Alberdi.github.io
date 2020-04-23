@@ -3,15 +3,15 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ikDAS</title>
-        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400|Open+Sans:300,400&display=swap" rel="stylesheet">
+        <title>Ane Alberdi</title>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet"" rel="stylesheet">
         <link rel="stylesheet" href="../assets/styles.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
-    <body class="dark">
 
-        <header class="header">
+    <body class="dark">
+        <header class="headerikdas">
             <div class="wrapper">                                                                                                                                                                                                                                                                                                                                                
                 <nav class="navigation">
                     <div class="logo">
@@ -24,7 +24,7 @@
                         <i class="fa fa-bars" aria-hidden="true"></i>
                     </label>
                     <ul class="navigation__list">
-                        <li><a class="nav-link" href="index.html">Hey</a></li>
+                        <li><a class="nav-link" href="../index.html">Hey</a></li>
                         <li><a class="nav-link" href="#proyectos">Proyectos</a></li>
                         <li><a class="nav-link" href="sobre_mi/index.html">Sobre mí</a></li>
                         <li><a class="nav-link" href="contacto/index.html">Contacto</a></li>
@@ -35,7 +35,7 @@
                 </nav>
             </div>
         </header>
-        <main>
+        <main >
             <section class="billboard_proyecto column__imageikdas">
                 <img class="proyecto_portada" src="../assets/img/ikdasportada.png">
             </section>
@@ -51,7 +51,7 @@
                 </div>
             </section>
 
-            <section id="section1" class="upsection">
+            <section id="section1" class="upsection" data-aos="slide-up">
                 <div class="wrapper-small row">
                     <div class="column"></div>
                     <div class="column">
@@ -59,7 +59,7 @@
                         <p>Para comenzar con la fase de análisis, se ha llevado a cabo el análisis de la máquina y el HMI. <br> ikDAS es una plataforma portátil de adquisición y procesamiento de señales que mide y analiza el comportamiento dinámico de la máquina-herramienta con el objetivo de controlar las vibraciones y mejorar la eficiencia de los equipos. No exige amplios conocimientos para su utilización. </p>
                     </div>
                 </div>
-                <div class="wrapper-small row">
+                <div class="wrapper-small row" >
                     <div class="column">
                         <img class="proyeto_imgcolumn" src="../assets/img/ikdasmaterial.png">
                     </div>
@@ -73,12 +73,16 @@
                 <div class="wrapper-small row">
                     <div class="column"></div>
                     <div class="column">
-                        <h3>Evaluación experta</h3>
-                        <p>Se ha llevado a cabo la evaluación de la interacción de la actual plataforma, desde la perspectiva del diseñador, evaluando los criterios definidos por heurísticos de usabilidad. Entre los aspectos generales, setup y diagnóstico que se han analizado en el actual software ikDAS, 89 en total, se han identificado 25 aspectos a mejorar. </p>
-                        <img class="proyeto_imgcolumn" src="../assets/img/ikdasresultados.png">
-                        <h3>Evaluación del usuario</h3>
-                        <p>Se han ejecutado testeos con usuarios en un espacio acondicionado para llevar a la práctica el diseño centrado en el usuario, un laboratorio con dos espacios independientes con estructura de cámara Gesell. Cada usuario ha debido ejecutar una serie de tareas, definidas por parte del experto del sistema a evaluar. Durante la ejecución de tareas se han observado las acciones de los usuarios con dispositivos eye-tracking para identificar factores críticos. Han sido 16 participantes en total, entre las que se encuentran 10 estudiantes de Ingeniería Mecánica y 6 operarios de Ideko. </p>
-                        <img class="proyeto_imgcolumn" src="../assets/img/ikdasfoto.png">
+                        <div data-aos="slide-up">
+                            <h3>Evaluación experta</h3>
+                            <p>Se ha llevado a cabo la evaluación de la interacción de la actual plataforma, desde la perspectiva del diseñador, evaluando los criterios definidos por heurísticos de usabilidad. Entre los aspectos generales, setup y diagnóstico que se han analizado en el actual software ikDAS, 89 en total, se han identificado 25 aspectos a mejorar. </p>
+                            <img class="proyeto_imgcolumn" src="../assets/img/ikdasresultados.png">
+                        </div>
+                        <div data-aos="slide-up">
+                            <h3>Evaluación del usuario</h3>
+                            <p>Se han ejecutado testeos con usuarios en un espacio acondicionado para llevar a la práctica el diseño centrado en el usuario, un laboratorio con dos espacios independientes con estructura de cámara Gesell. Cada usuario ha debido ejecutar una serie de tareas, definidas por parte del experto del sistema a evaluar. Durante la ejecución de tareas se han observado las acciones de los usuarios con dispositivos eye-tracking para identificar factores críticos. Han sido 16 participantes en total, entre las que se encuentran 10 estudiantes de Ingeniería Mecánica y 6 operarios de Ideko. </p>
+                            <img class="proyeto_imgcolumn" src="../assets/img/ikdasfoto.png">
+                        </div>
                     </div>
                 </div>
             </section>
@@ -97,7 +101,7 @@
         
 
             <section id="section4" class="upsection">
-                <div class="wrapper-small row">
+                <div class="wrapper-small row" data-aos="slide-up">
                     <div class="column"></div>
                     <div class="column">
                         <h2>Conceptualización</h2>
@@ -107,12 +111,12 @@
             </section>
 
             <section id="section5" class="subsection">
-                <img class="img_centrada" src="../assets/img/ikdaswireframes.jpg">
+                <img class="img_centrada" data-aos="slide-up" src="../assets/img/ikdaswireframes.jpg">
             </section>
 
 
             <section id="section6" class="section">
-                <div class="wrapper-small row">
+                <div class="wrapper-small row" data-aos="slide-up">
                     <div class="column">
                         <h2>Diseño final</h2>
                         <p>Finalmente, tras definir las especificaciones gráficas a las que deberá ceñirse la nueva aplicación, basándose en los wireframes realizados y teniendo en cuenta los resultados de las evaluaciones de usabilidad de ikDAS, se han podido diseñar las pantallas de la propuesta visual sin código de ikDAS2.</p>
@@ -121,19 +125,19 @@
                 </div>
             </section>
 
-            <section class="subsection">
+            <section class="subsection" data-aos="slide-up">
                 <img class="img_centrada" src="../assets/img/ikdas1.jpg"> 
             </section>
-            <section class="subsection">
+            <section class="subsection" data-aos="slide-up">
                 <img class="img_centrada" src="../assets/img/ikdas2.jpg"> 
             </section>
-            <section class="subsection">
+            <section class="subsection" data-aos="slide-up">
                 <img class="img_centrada" src="../assets/img/ikdas3.jpg"> 
             </section>
-            <section class="subsection">
+            <section class="subsection" data-aos="slide-up">
                 <img class="img_centrada" src="../assets/img/ikdas4.jpg"> 
             </section>
-            <section class="subsection">
+            <section class="subsection" data-aos="slide-up">
                 <img class="img_centrada" src="../assets/img/ikdas5.jpg"> 
             </section>
             
@@ -168,9 +172,17 @@
                 </ul>
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
 
+        <!--
+        Cargamos los scripts de las librerías AOS
+    -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        
     
+        <script src="../assets/app.js"></script>
 
-       
     </body>
 </html>
