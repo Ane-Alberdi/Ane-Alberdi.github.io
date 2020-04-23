@@ -3,7 +3,6 @@ AOS.init({
 });
 
 const header = document.querySelector('.header');
-
 window.onscroll = function (){
     var top = window.scrollY;
     console.log(top);
@@ -15,7 +14,6 @@ window.onscroll = function (){
 
 }
 const headerikdas = document.querySelector('.headerikdas');
-
 window.onscroll = function (){
     var top = window.scrollY;
     console.log(top);
@@ -28,7 +26,6 @@ window.onscroll = function (){
 }
 
 const headercaixa = document.querySelector('.headercaixa');
-
 window.onscroll = function (){
     var top = window.scrollY;
     console.log(top);

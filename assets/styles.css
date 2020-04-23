@@ -117,7 +117,6 @@ img {
     display: inline-block;
     width: 90%;
 }
-
 .header {
     padding: 1rem 0;
     position: fixed;
@@ -136,6 +135,7 @@ img {
     top: 0;
     transition: all 0.5s;
 }
+
 .headercaixa {
     padding: 1rem 0;
     position: fixed;
@@ -145,6 +145,16 @@ img {
     top: 0;
     transition: all 0.5s;
 }
+.headerminva {
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background:#B8FED2;
+    top: 0;
+    transition: all 0.5s;
+}
+
 .header.active,
 .headerikdas.active,
 .headercaixa.active,
@@ -195,6 +205,11 @@ img {
 }
 .column__imagecaixa {
     background: #CCE5EF;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+.column__imageminva {
+    background: #B8FED2;
     min-height: 100vh;
     max-height: 100vh;
 }
