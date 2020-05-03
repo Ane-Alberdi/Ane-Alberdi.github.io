@@ -224,74 +224,12 @@ img {
     position: fixed;
     width: 100%;
     z-index: 2;
-    background:rgba(255, 255, 255, 0.9);
-    top: 0;
-    transition: all 0.5s;
-}
-.headerikdas {
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    background:#717ADB;
+    background:transparent;
     top: 0;
     transition: all 0.5s;
 }
 
-.headercaixa {
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    background:#CCE5EF;
-    top: 0;
-    transition: all 0.5s;
-}
-.headerminva {
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    background:#B8FED2;
-    top: 0;
-    transition: all 0.5s;
-}
-.headerspace {
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    background:#FFB3AE;
-    top: 0;
-    transition: all 0.5s;
-}
-.headerboschtok {
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    background:#FEFBA1;
-    top: 0;
-    transition: all 0.5s;
-}
-.headerune {
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    background:#B5E5DA;
-    top: 0;
-    transition: all 0.5s;
-}
-
-
-.header.active,
-.headerikdas.active,
-.headercaixa.active,
-.headerminva.active,
-.headerspace.active,
-.headerune.active,
-.headerboschtok.active{
+.header.active{
     padding: 1rem 0;
     position: fixed;
     width: 100%;
