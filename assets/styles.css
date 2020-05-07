@@ -107,6 +107,7 @@ p {
         margin-top: 2%;
         margin-bottom: 2%;
     }
+   
 
 }
 .icono{
@@ -173,6 +174,10 @@ p {
     }
     .img_centradadesktop{
         display:none;
+    }
+
+    .titularmobile{
+        padding-top: 2rem;
     }
 
 
