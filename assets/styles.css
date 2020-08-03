@@ -271,6 +271,11 @@ img {
 }
 
 /* PROYECTO */
+.column__imagegreen{
+    background: #E5DFFF;
+    min-height: 100vh;
+    max-height: 100vh;
+}
 .column__imageikdas {
     background: #717ADB;
     min-height: 100vh;
