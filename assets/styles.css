@@ -332,6 +332,14 @@ img {
     max-width: 1010px;
 }
 
+.proyecto_portadagreen{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:6em;
+    max-width: 1200px;
+}
+
 .billboard_proyecto {
     color: #00020d;
     min-height: 100vh;
