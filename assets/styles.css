@@ -142,6 +142,12 @@ p {
     margin-top: 3%;
     margin-bottom: 4%;
 }
+
+.contexto{
+    width: 40%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
 .img_centradadesktop{
     display:block;
     max-width: 100%;
@@ -161,9 +167,12 @@ p {
 @media (max-width:48em){
     .encuestas{
         width: 100%;
-        margin-top: 3%;
-        margin-bottom: 4%;
     }
+
+    .contexto{
+        width: 80%;
+    }
+
     .img_centradamobile{
         display:block;
         max-width: 100%;
