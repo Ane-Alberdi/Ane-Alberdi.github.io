@@ -19,7 +19,20 @@ svg {
 }
 
 
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 
+}
+.proyectosnuevo{
+    margin-bottom: 4rem;
+
+}
+
+.imgproyectos{
+    display: block;
+    width:100%;
+}
 
 
 ul, ol {
