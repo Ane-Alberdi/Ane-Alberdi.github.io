@@ -8,17 +8,6 @@
         <link rel="stylesheet" href="../assets/styles.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <!-- Hotjar Tracking Code for https://ane-alberdi.github.io/ -->
-        <script>
-            (function(h,o,t,j,a,r){
-                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                h._hjSettings={hjid:2016033,hjsv:6};
-                a=o.getElementsByTagName('head')[0];
-                r=o.createElement('script');r.async=1;
-                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
     </head>
 
     <body class="dark">
@@ -36,7 +25,7 @@
                     </label>
                     <ul class="navigation__list">
                         <li><a class="nav-link" href="../index.html">Hey</a></li>
-                        <li><a class="nav-link activo" href="index.html">Proyectos</a></li>
+                        <li><a class="nav-link" href="../proyectos/index.html">Proyectos</a></li>
                         <li><a class="nav-link" href="../sobre_mi/index.html">Sobre mí</a></li>
                         <li><a class="nav-link" href="../contacto/index.html">Contacto</a></li>
                         <label for="chk" class="hide-menu-btn">
@@ -46,65 +35,25 @@
                 </nav>
             </div>
         </header>
+        <main >
+            <section class="billboard_proyecto column__imageEB">
+                <img class="proyecto_portadaEB" src="../assets/img/EBportada.svg">
+            </section>
 
-        <main>
-            <section id="proyectos" class="section_presenta">
-                <div class="wrapper row">
-                    <div class="column text-center">
-                        <div class="proyectosnuevo">
-                            <h1 class="titular outline">Proyectos</h1>
-                        </div>
-                        
+            <section id="ikDAS" class="section descripcion">
+                <div class="wrapper-small row">
+                    <div class="billboard__content column">
+                        <h1 class="grande"> EguneanBehin </h1>
+                        <p class="bold">Rediseño de aplicación</p>
+                        <p class="italic">Proyecto personal - 2020</p>
+                        <p> Egunean Behin es un juego de preguntas y respuestas en euskera. Cada día podrás jugar una única partida, donde tendrás que contestar a 10 preguntas, lo antes posible. Cuantas más respuestas aciertes, en el menor tiempo posible, mejor.</p>       
                     </div>
                 </div>
             </section>
 
+           
             
-
-        
-            <section id="proyectos" class="wrapper">
-                
-                <div class="grid">
-
-                    <div>
-                        <a href="../proyecto8/index.html"><img class="imgproyectos" src="../assets/img/EBpresenta.png"></a>
-                    </div>
-
-                    <div>
-                        <a href="../proyecto7/index.html"><img class="imgproyectos" src="../assets/img/greenpresenta.png"></a>
-                    </div>
-
-                    <div>
-                        <a href="../proyecto1/index.html"><img class="imgproyectos" src="../assets/img/ikdaspresenta.png"></a>
-                    </div>
-
-                    <div>
-                        <a href="../proyecto2/index.html"><img class="imgproyectos" src="../assets/img/caixapresenta.png"></a>
-                    </div>
-
-                    <div>
-                        <a href="../proyecto3/index.html"><img class="imgproyectos" src="../assets/img/minvapresenta.png"></a>
-                    </div>
-
-
-                    <div>
-                        <a href="../proyecto4/index.html"><img class="imgproyectos" src="../assets/img/spacepresenta.png"></a>
-                    </div>
-
-                    <div>
-                        <a href="../proyecto5/index.html"><img class="imgproyectos" src="../assets/img/boschtokpresenta.png"></a>
-                    </div>
-
-                    <div>
-                        <a href="../proyecto6/index.html"><img class="imgproyectos" src="../assets/img/unepresenta.png"></a>
-                    </div>
-
-                    
-
-                </div>
-            </section>
-           
-           
+            
             <section id="section6" class="section">
                 <div class="calltoaction">
                     <hr class="raya">
@@ -115,7 +64,10 @@
                     </div>
                 </div>
             </section>
+
         </main>
+
+
         <footer class="footer">
             <div class="wrapper row ">
                 <div class="footer__copyright">© 2020 Ane Alberdi</div>
@@ -133,12 +85,6 @@
                 </ul>
             </div>
         </footer>
-           <!--
-        Importación del script de jQuery
-        En este caso hemos importado la versión default-minified para realizar los ejemplos de animaciones de slideUP, slideDown, fadeIn y fadeOut.
-        Pero para el portfolio, ya que solamente lo utilizaremos para añadir y quitar clases, solo necesitaremos el slim-minified, que es un poco menos pesado
-        https://code.jquery.com/
-    -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
             crossorigin="anonymous"></script>
@@ -147,16 +93,9 @@
         Cargamos los scripts de las librerías AOS
     -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-        <!--
-        Cargamos nuestros scripts
-    -->
-          
+        
     
         <script src="../assets/app.js"></script>
 
     </body>
 </html>
-
-
-    

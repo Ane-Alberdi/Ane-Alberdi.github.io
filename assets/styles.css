@@ -293,6 +293,13 @@ img {
 }
 
 /* PROYECTO */
+
+.column__imageEB{
+    background:#fff;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
 .column__imagegreen{
     background: #E5DFFF;
     min-height: 100vh;
@@ -361,6 +368,16 @@ img {
     padding-top:6em;
     max-width: 1100px;
 }
+
+.proyecto_portadaEB{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:4em;
+    max-width: 1100px;
+}
+
+
 
 .billboard_proyecto {
     color: #00020d;
@@ -552,6 +569,13 @@ img {
     z-index:-1111;
 }
 @media (max-width:48em){
+
+    .grid {
+        display: grid;
+        grid-template-columns: 100%;
+    
+    }
+
     .show-menu-btn,.hide-menu-btn{
         display:block;
     }
