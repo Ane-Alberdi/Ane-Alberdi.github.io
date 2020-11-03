@@ -28,7 +28,6 @@ svg {
 }
 .proyectosnuevo{
     margin-bottom: 4rem;
-
 }
 
 .imgproyectos{
@@ -580,8 +579,15 @@ img {
     .grid {
         display: grid;
         grid-template-columns: 100%;
-    
+        grid-gap: 5%;
+        padding-bottom: 90rem;
     }
+
+    .proyectosnuevo{
+        padding-top: 3rem;
+        margin-bottom: 4rem;
+    }
+
 
     .show-menu-btn,.hide-menu-btn{
         display:block;
