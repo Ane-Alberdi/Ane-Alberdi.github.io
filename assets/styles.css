@@ -306,6 +306,12 @@ img {
     max-height: 100vh;
 }
 
+.column__imagekalendar{
+    background:#FF4313;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
 .column__imagegreen{
     background: #E5DFFF;
     min-height: 100vh;
@@ -380,6 +386,13 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding-top:4em;
+    max-width: 1100px;
+}
+
+.proyecto_portadahey{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1100px;
 }
 
