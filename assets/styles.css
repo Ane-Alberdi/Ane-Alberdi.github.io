@@ -306,6 +306,12 @@ img {
     max-height: 100vh;
 }
 
+.column__imageart{
+    background:#CEFF8F;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
 .column__imagekalendar{
     background:#FF4313;
     min-height: 100vh;
@@ -377,7 +383,15 @@ img {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    padding-top:6em;
+    padding-top:4em;
+    max-width: 1100px;
+}
+
+.proyecto_portadaart{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:6%;
     max-width: 1100px;
 }
 
